@@ -9,3 +9,7 @@ def home():
 @app.get("/health")
 def health():
     return {"messege":"OK"}
+
+@app.get("/status")
+def status():
+    return {"status":"OK","server":"Server is running"}
