@@ -21,3 +21,7 @@ def A():
 @app.get("/ba")
 def ba():
     return {"GOD": "hare krishna"}
+
+@app.get("/ca")
+def ca():
+    return {"GOD": "krishna krishna"}
