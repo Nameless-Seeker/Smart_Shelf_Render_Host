@@ -17,3 +17,7 @@ def status():
 @app.get("/A")
 def A():
     return {"Server": "Is running. Yaah"}
+
+@app.get("/ba")
+def ba():
+    return {"GOD": "hare krishna"}
