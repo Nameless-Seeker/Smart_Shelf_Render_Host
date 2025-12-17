@@ -13,3 +13,7 @@ def health():
 @app.get("/status")
 def status():
     return {"status":"OK","server":"Server is running"}
+
+@app.get("/A")
+def A():
+    return {"Server": "Is running. Yaah"}
